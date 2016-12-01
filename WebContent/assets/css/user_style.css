@@ -1,0 +1,631 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "Myriad Apple Medium";
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Myriad Apple Bold";
+}
+nav input::-webkit-input-placeholder {
+    color: #000;
+}
+input:-moz-placeholder {
+    color: #000;
+}
+input:-ms-input-placeholder {
+    color: #000;
+}
+
+th {
+    color: #000 !important;
+    font-weight: normal;
+}
+
+hr {
+    height: 1px;
+    background-color: #e1e1e1;
+}
+
+
+
+.row {
+    margin: 0px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+header > div.logo {
+    text-align: center;
+}
+
+header img {
+    height: 150px;
+}
+
+header {
+    /*position: relative;*/
+}
+
+
+
+header .social-links a {
+    background: none;
+    border: none;
+    display: inline-block;
+}
+
+header .social-links a span {
+    color: #000;
+}
+header .social-links a:hover {
+    background: transparent;
+    opacity: 0.8;
+}
+
+/*naviagtion header*/
+
+nav#nav-header > .m-menu {
+    box-shadow: none;
+    width: 99%;
+}
+
+nav#nav-header > .m-menu > li:hover {
+    background: #fff !important;
+}
+
+nav#nav-header .m-menu > li > a {
+    color: #000 !important;
+    font-family: "Myriad Apple Bold";
+}
+
+nav#nav-header .m-menu > li > a:hover {
+    color: #161616 !important;
+    background: #fff;
+}
+
+nav#nav-header .m-menu .m-menu-container {
+    background: #000;
+    text-align: center;
+    padding: 0px;
+}
+
+nav#nav-header .m-menu .m-menu-container > ul.inline-list > li {
+    padding: 0px 0;
+}
+
+nav#nav-header .m-menu .m-menu-container > ul.inline-list > li > a {
+    padding: 20px;
+    text-decoration: none;
+}
+
+nav#nav-header .m-menu .m-menu-item.active-container, nav .m-menu > li.active-container {
+    background: #fff;
+    color: #000;
+}
+
+nav#nav-header .m-menu .m-menu-item, nav .m-menu > li {
+    text-transform: uppercase;
+    padding: 0% 0.5%;
+
+}
+
+nav#nav-header .m-menu .m-menu-item a, nav .m-menu > li a {
+    font-size: 18px;
+}
+
+
+nav#nav-header form.search-form > div > input[type="text"], nav form.search-form > div > button {
+    border: none;
+}
+
+nav#nav-header ul.m-menu > li.icon-shopping-cart > a {
+    /*padding: 26%;*/
+}
+
+nav#nav-header ul.m-menu > li.icon-shopping-cart i, nav.nav-mobile-screen li.icon-shopping-cart i {
+    font-size: 26px;
+}
+
+
+nav#nav-header ul.m-menu li span.cart-quantity{
+    background: #6e696a;
+    position: absolute;
+    top: 3px;
+    right: 20px;
+    display: block;
+    padding: 4px;
+    line-height: 10px;
+    font-size: 11px;
+    border-radius: 25%;
+    color: #fff;
+}
+
+.m-menu .m-menu-item.active-container a.dropdown-toggle:before, .m-menu > li.active-container a.dropdown-toggle:before {
+    border-color: #000;
+}
+
+.app-bar .app-bar-menu>li{
+    position: static;
+}
+.app-bar{
+    background: transparent;
+}
+.app-bar .app-bar-pullbutton.automatic{
+    color: #000;
+}
+ .m-menu .m-menu-item>a, .m-menu>li>a{
+    padding: 0px 30px!important;
+}
+.m-menu .m-menu-container{
+    position: absolute !important;
+    float: left;
+}
+
+.app-bar .app-bar-pullmenu .app-bar-menu{
+    border-top: none;
+    background: #fff;
+}
+.app-bar .app-bar-pullmenu .app-bar-menu>li a{
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+}
+.app-bar .app-bar-pullmenu .app-bar-menu li:hover a{
+    background: #fff;
+    color: #000;
+}
+
+.app-bar .app-bar-pullmenu .app-bar-menu li:hover{
+    background: transparent;
+}
+
+
+.dropdown-toggle:before {
+    border-color: #1d1d1d !important;
+}
+
+nav.nav-mobile-screen .app-bar-menu>li>a{
+    color: #000;
+    text-transform: uppercase;
+    font-family: "Myriad Apple Bold" !important;
+}
+nav.nav-mobile-screen .app-bar-pullbutton.automatic{
+    color: #000;
+}
+nav.nav-mobile-screen .app-bar-pullmenu .app-bar-menu{
+    border: none;
+    background-color: transparent;
+}
+nav.nav-mobile-screen .app-bar-element:hover{
+    background: transparent;
+}
+
+nav.nav-mobile-screen .app-bar-menu>li>a:hover{
+    background-color: #fff;
+}
+nav.nav-mobile-screen .app-bar-menu>li .d-menu{
+    border: none;
+    box-shadow: none;
+    background: #000;
+}
+
+nav.nav-mobile-screen .app-bar-menu>li .d-menu a{
+    text-transform: uppercase;
+    font-family: "Myriad Apple Bold" !important;
+    color: #fff;
+}
+nav.nav-mobile-screen  .app-bar-pullmenu .app-bar-menu .d-menu li{
+    background: #000;
+}
+
+nav.nav-mobile-screen .app-bar-pullmenu .app-bar-menu li:hover > a{
+    color: #000;
+    background-color: #fbfdff;
+}
+
+nav.nav-mobile-screen .app-bar-pullmenu .app-bar-menu .d-menu{
+    border: none;
+    background-color: #000;
+}
+
+nav.nav-mobile-screen .app-bar-pullbutton:active, .app-bar .app-bar-pullbutton:hover{
+    background: transparent;
+}
+
+nav.nav-mobile-screen .app-bar-pullmenu .app-bar-menu>li{
+    text-align: center;
+}
+nav.nav-mobile-screen li.icon-shopping-cart span.cart-quantity{
+    background: #6e696a;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 20px;
+    display: block;
+    padding: 4px;
+    line-height: 10px;
+    font-size: 11px;
+    border-radius: 25%;
+    color: #fff;
+}
+nav.nav-mobile-screen .app-bar-menu>li:hover{
+    background-color: transparent;
+}
+
+/*navigation footer */
+
+/*nav#nav-footer {
+    margin: 2% 0;
+}
+nav#nav-footer .f-menu{
+    display: flex;
+}
+nav#nav-footer .f-menu > li a {
+    font-family: "Myriad Apple Bold";
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+nav#nav-footer .f-menu > li > a {
+    color: #000;
+    width: 100%;
+}
+
+nav#nav-footer .f-menu > li.active a, nav#nav-footer .f-menu > li > a:hover {
+    background: #fff !important;
+    color: darkgray;
+}*/
+
+nav#nav-footer{
+    margin-top: 20px;
+}
+
+nav#nav-footer li > a {
+    color: #000;
+    font-family: "Myriad Apple Bold";
+    text-transform: uppercase;
+    padding: 0rem 55px;
+}
+
+nav#nav-footer li.active a, nav#nav-footer li > a:hover {
+    background: #fff !important;
+    color: #151515;
+}
+
+nav#nav-footer .app-bar-pullbutton.automatic{
+    color: #000;
+}
+
+nav#nav-footer .app-bar-pullmenu .app-bar-menu{
+    background: transparent;
+    border-top: none;
+}
+
+
+/*section */
+section#middle > article {
+    margin-top: 6%;
+}
+
+section#middle > article h1 {
+    padding: 2% 0;
+    font-family: "Myriad Apple Bold";
+}
+
+section#middle > article#slide {
+    margin-top: 0;
+}
+
+section#middle > article#slide .slide img {
+    height: 100%;
+    width: 100%;
+}
+
+section#middle > article#slide .thumb img {
+    width: 100%;
+    height: 100%;
+}
+
+section#middle > article#correspond-product .thumb {
+    width: 220px;
+    height: 100px;
+}
+
+section#middle > article#correspond-product .thumb div.frame > div{
+    background-size: 100% 100% !important;
+    height: 100px !important;
+}
+
+section#middle > article#correspond-product .carousel .carousel-bullets{
+    display: none !important;
+}
+section#middle > article#correspond-product .carousel .carousel-switch-prev{
+    font-size: 20px;
+    color: #2a2a2a;
+    left: 5px;
+}
+section#middle > article#correspond-product .carousel .carousel-switch-next{
+    font-size: 20px;
+    color: #3c3c3c;
+    right: 5px;
+}
+
+section#middle a {
+    color: #000 !important;
+}
+
+/*footer*/
+footer {
+    margin-top: 20px;
+}
+
+footer p {
+    padding: 10px 0;
+}
+
+footer a {
+    color: black !important;
+}
+
+footer .social-links a {
+    background: none;
+    border: none;
+    display: inline-block;
+}
+
+footer .social-links a span {
+    color: #000;
+}
+
+footer .social-links a:hover {
+    background: transparent;
+    opacity: 0.8;
+}
+
+footer div#scrolltop {
+    width: 60px;
+    height: 60px;
+    border: 4px solid #989a9e;
+    border-radius: 50%;
+    background: none;
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    display: none;
+    text-align: center;
+}
+
+footer div#scrolltop:hover {
+    cursor: pointer;
+    border-color: #75777a;
+}
+
+footer div#scrolltop > i {
+    line-height: 50px;
+    color: #989a9e;
+}
+
+footer div#scrolltop:hover i {
+    color: #75777a;
+}
+
+/*product */
+article#product {
+    text-align: center;
+}
+
+article#product img {
+    width: 50%;
+}
+
+article#product > div > div > a {
+    display: block;
+}
+
+article#product > div > div {
+    text-align: center;
+}
+
+.title{
+    border-bottom: 1px solid #e1e1e1;
+    text-align: center;
+}
+
+div.title > div{
+    padding: 20px 0;
+}
+
+article#about > div.container, article#blog > div.container, article#contact > div.container, article#shopping-cart > div.container, article#order-product > div.container, article#blog-content > div.container {
+    padding: 20px 0;
+}
+
+article#contact, article#about, article#blog, article#shopping-cart, article#order-product, article#blog-content {
+    border-bottom: 1px solid #e1e1e1;
+}
+
+/*about*/
+article#about > div.container {
+    padding: 20px 0;
+}
+
+article#about div.grid div.introduce {
+    margin-top: 30px;
+}
+
+article#about div.grid div.introduce > div:first-child *{
+    font-family: Arial;
+}
+
+/*contact*/
+
+article#contact div.grid .distribute {
+    padding: 20px 0;
+
+}
+
+article#contact div.grid .distribute p, article#contact div.grid .content p {
+    line-height: 25px;
+}
+
+/*blog */
+
+article#blog div.grid .gallery div.cell a > * {
+    text-align: center;
+    color: #000;
+}
+
+/*product-detail*/
+
+article#product-detail {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+article#product-detail .product-picture {
+    text-align: center;
+}
+
+article#product-detail .buy-product .thumb {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+}
+
+article#product-detail .buy-product .thumb > img {
+    width: 100%;
+    height: 100%;
+}
+
+article#product-detail .buy-product form button {
+    font-size: 20px;
+    font-family: "Myriad Apple Bold";
+    width: auto;
+    height: auto;
+}
+
+article#product-detail .buy-product form button > * {
+    padding: 20px 5px;
+}
+
+article#product-detail .product-detail {
+    padding: 10px 0;
+}
+
+article#product-detail .product-detail p {
+    line-height: 25px;
+    font-family: "Times New Roman";
+    font-size: 17px;
+    font-style: italic;
+}
+
+article#product-detail div.product-picture div.thumb {
+    height: 150px;
+    width: 100px;
+    margin: 0 20px;
+}
+
+article#product-detail .carousel .carousel-bullets {
+    display: none;
+}
+
+article#product-detail .carousel span.mif-chevron-right, article#product-detail .carousel span.mif-chevron-left {
+    font-size: 16px;
+    padding: 10px;
+    color: #000;
+}
+
+/*shopping cart*/
+article#shopping-cart {
+    padding: 20px 0;
+}
+
+article#shopping-cart .avatar-product {
+    width: 20%;
+}
+
+article#shopping-cart .detail-product {
+    width: 50%;
+    text-align: justify;
+}
+
+article#shopping-cart .panel > .content {
+    background: #fff;
+    border: 1px solid #d9d9d9;
+}
+
+article#category > .container > div.grid a{
+    color: #000;
+}
+.thumb-hidden{
+    background-color: red;
+}
+
+@media screen and (max-width: 1200px){
+    nav#nav-header > .m-menu{
+        width: auto;
+    }
+    nav#nav-header .m-menu-container{
+        background: #000000 !important;
+        text-align: center !important;
+    }
+    .app-bar .app-bar-pullmenu .app-bar-menu li:hover ul a{
+        background: #000;
+        color: #fff;
+    }
+    .app-bar .app-bar-pullmenu .app-bar-menu li ul a{
+        background: #000;
+        color: #fff;
+    }
+    nav#nav-header .fa-shopping-cart{
+        font-size: 25px;
+    }
+}
+@media screen and (min-width: 1200px){
+    nav#nav-header > .m-menu{
+
+    }
+    nav#nav-header{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 800px){
+    header div.social-links {
+        text-align: center;
+        position: absolute !important;
+        right: 5%;
+        bottom: 0px;
+    }
+    .container {
+        width: 1170px;
+    }
+    nav#nav-footer > .app-bar-menu{
+        margin-left: 10%;
+    }
+    nav#nav-footer li > a{
+        font-size: 18px;
+    }
+
+}
+@media screen and (max-width: 800px){
+    header div.social-links {
+        margin-top: 20px;
+        text-align: center;
+        position: relative !important;
+    }
+    .thumb-hidden{
+        display: none !important;
+    }
+    nav#nav-footer li > a{
+        font-size: 14px;
+    }
+    nav#nav-header .m-menu .m-menu-container > ul.inline-list > li > a{
+        font-size: 15px;
+    }
+}

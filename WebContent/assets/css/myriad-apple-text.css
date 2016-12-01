@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "Myriad Apple Medium";
+    src: url("../fonts/MYRIADAM.TTF");
+}
+
+@font-face {
+    font-family: "Myriad Apple Semibold";
+    src: url("../fonts/MYRIADAS.TTF");
+}
+@font-face {
+    font-family: "Myriad Apple Text";
+    src: url("../fonts/MYRIADAT.TTF");
+}
+@font-face {
+    font-family: "Myriad Apple Bold";
+    src: url("../fonts/MYRIADAB.TTF");
+}
+@font-face {
+    font-family: "Myriad Apple Text Italic";
+    src: url("../fonts/MYRIAATI.TTF");
+}
+@font-face {
+    font-family: "Myriad Apple SemiboldItalic";
+    src: url("../fonts/MYRIAASI.TTF");
+}
+@font-face {
+    font-family: "Myriad Apple Medium Italic";
+    src: url("../fonts/MYRIAAMI.TTF");
+}
+@font-face {
+    font-family: "Myriad Apple Bold Itatic";
+    src: url("../fonts/MYRIAABI.TTF");
+}
